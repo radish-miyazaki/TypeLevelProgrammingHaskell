@@ -1,5 +1,7 @@
 {-# LANGUAGE DataKinds #-}
 
+module PhantomType (SizedList) where
+
 import Data.Proxy (Proxy)
 import PeanoNat (PeanoNat (..))
 
