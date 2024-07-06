@@ -15,6 +15,7 @@ data Expr a
   | Add (Expr Int) (Expr Int)
   | Equal (Expr Int) (Expr Int)
   | IfThenElse (Expr Bool) (Expr a) (Expr a)
+  deriving (Show)
 
 mkConst :: Int -> Expr Int
 mkConst = Const
